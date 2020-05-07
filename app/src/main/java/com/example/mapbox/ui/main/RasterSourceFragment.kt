@@ -15,6 +15,7 @@ class RasterSourceFragment : BaseMapFragment() {
             map.setStyle(Style.LIGHT) { style ->
                 style.addSource(RasterSource("albuquerque-source", "mapbox://rustamg.bb1c0myz"))
                 style.addLayer(RasterLayer("albuquerque", "albuquerque-source"))
+                // Here is a link to download the tileset (id: rustamg.bb1c0myz): https://drive.google.com/file/d/16D8v-K9GK_3zk_zgj4uuNTzNZ2-hJYTU/view?usp=sharing
             }
         }
     }
